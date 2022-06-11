@@ -142,7 +142,7 @@ STATIC_URL = '/static/'
 
 # Extra places for collectstatic to find static files.
 STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, 'qrtoorlkit_core/static'),
+    os.path.join(BASE_DIR, 'static'),
 )
 
 # # Activate Django-Heroku.
