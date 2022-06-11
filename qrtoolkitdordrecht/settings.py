@@ -1,5 +1,5 @@
 # Added for Heroku (https://devcenter.heroku.com/articles/django-app-configuration)
-import django_heroku
+# import django_heroku
 
 """
 Django settings for qrtoolkitdordrecht project.
@@ -127,5 +127,5 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-# Activate Django-Heroku.
-django_heroku.settings(locals())
+# # Activate Django-Heroku.
+# django_heroku.settings(locals())
