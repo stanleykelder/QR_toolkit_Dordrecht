@@ -18,3 +18,4 @@ sqlparse==0.4.2
 urllib3==1.26.9
 webencodings==0.5.1
 whitenoise
+django_heroku
