@@ -1,3 +1,7 @@
 added setup.py and setup.cfg
 
 added requirements.txt
+
+Added Django-heroku (and activated at bottom of settings.py)
+
+Added whitenoise to requirements.text and to middleware in settings
