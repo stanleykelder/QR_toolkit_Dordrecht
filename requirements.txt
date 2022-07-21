@@ -9,6 +9,7 @@ django-reversion==3.0.9
 djangorestframework==3.12.2
 idna==2.10
 packaging==21.3
+psycopg2==2.8.6
 pyparsing==3.0.9
 pytz==2022.1
 requests==2.25.1
