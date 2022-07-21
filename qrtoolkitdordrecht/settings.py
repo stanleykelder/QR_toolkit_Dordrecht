@@ -48,8 +48,8 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
-     'whitenoise.middleware.WhiteNoiseMiddleware',
-     'django.contrib.sessions.middleware.SessionMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
+    'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
@@ -59,7 +59,7 @@ MIDDLEWARE = [
 
 API_URL = '/api/'
 REDIRECT_SERVICE_URL = ''
-ENVIRONMENT = 'DV'
+ENVIRONMENT = 'PR'
 
 ROOT_URLCONF = 'qrtoolkitdordrecht.urls'
 
