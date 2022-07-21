@@ -57,6 +57,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
+
 API_URL = '/api/'
 REDIRECT_SERVICE_URL = ''
 ENVIRONMENT = 'PR'
