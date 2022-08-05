@@ -1,3 +1,3 @@
 release: python manage.py migrate
-web: gunicorn myqrtoolkit.wsgi
+web: gunicorn qrtoolkitdordrecht.wsgi
 heroku ps:scale web=1
